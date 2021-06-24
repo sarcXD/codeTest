@@ -2,7 +2,7 @@ import traceback
 
 
 class CalculationParser:
-    bodmasOrdering = ['+', '-', '*', '/', '^']
+    bodmasOrdering = ['+', '-', '*', '/']
     SupportedOperationsMsg = 'Supported Operations:\n 1. Addition `+`\n 2. Subtraction `-`\n 3. Multiplication `*`\n 4. Division `/`\n'
     IncorrectOperationMsg = "Incorrect/Unrecognized operation request"
     ZeroDivisionError = "Attempt to Divide by Zero"
